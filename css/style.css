@@ -19,6 +19,9 @@ div {
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 .top-navigation > .content {
     height: 70px;
@@ -101,7 +104,11 @@ div {
     border-color: #cf3d0e;
     cursor: pointer;
 }
-
+.cases .devices {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
 
 
 
